@@ -91,7 +91,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.3 Auditorías según su ámbito de acción
     .row.justify-content-center.mb-5
-      .col.col-lg-2.col-md-7.col-8.order-lg-1.order-1.mb-lg-0.mb-4
+      .col.col-lg-2.col-md-5.col-8.order-lg-1.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema2/img10.svg', alt='Imagen decorativa')
       .col.col-lg-8.col-12.order-lg-2.order-2

@@ -62,7 +62,7 @@
               p El alcance debe redactarse de forma clara, concreta y verificable.
     p.mb-5(data-aos="fade-down") Con el fin de ejemplificar cómo se redacta adecuadamente el alcance de una auditoría interna, a continuación, se presenta un caso aplicado a un proceso organizacional específico. Este modelo orienta al aprendiz sobre la forma clara, concreta y verificable en que debe formularse el alcance dentro del programa de auditoría.
     .row.justify-content-center.align-items-center.mb-5
-      .col.col-lg-4.col-8.order-lg-2.order-1.g-0
+      .col.col-lg-4.col-8.order-lg-2.order-1.g-0.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema4/img10.svg', alt='Imagen decorativa')
       .col.col-lg-6.order-lg-1.order-2
@@ -153,10 +153,10 @@
           p(data-aos="fade-down") Los criterios de auditoría constituyen el referente técnico que sustenta todo el proceso evaluativo y permiten determinar el grado de cumplimiento, adecuación y eficacia del Sistema de Gestión de la Calidad.
         p(data-aos="fade-down") Para consolidar la comprensión del concepto, a continuación, se presenta un ejemplo aplicado al proceso de “Gestión de compras”:
     .row.justify-content-center.align-items-center.mb-5
-      .col.col-lg-3.col-8.order-lg-2.order-1.g-0
+      .col.col-lg-3.col-6.order-lg-2.order-1.g-0.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema4/img22.png', alt='Imagen decorativa')
-      .col.col-lg-7.order-lg-1.order-2
+      .col.col-lg-7.col-12.order-lg-1.order-2
         .row.justify-content-center
           .col
             .cajon.cajon.C02.p-4
@@ -279,10 +279,10 @@
     p(data-aos="fade-down") El uso adecuado del muestreo permite emitir conclusiones razonables sin comprometer la objetividad ni la confiabilidad del proceso.
     p.mb-5(data-aos="fade-down") A continuación, se presenta un ejemplo aplicado al proceso de auditoría:
     .row.justify-content-center.align-items-center.mb-5
-      .col.col-lg-3.col-8.order-lg-1.order-1.g-0
+      .col.col-lg-3.col-6.order-lg-1.order-1.g-0.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema4/img22.png', alt='Imagen decorativa')
-      .col.col-lg-7.order-lg-2.order-2
+      .col.col-lg-7.col-12.order-lg-2.order-2
         .row.justify-content-center
           .col
             .cajon.cajon.C02.p-4
@@ -361,7 +361,7 @@
               .lista-ol--cuadro__vineta
                 span.text-bold 6
               | Conclusiones generales sobre el grado de conformidad y eficacia del sistema.
-      .col-lg-2.col-8.col-md-7.order-lg-1.order-1
+      .col-lg-2.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema4/img29.svg', alt='Imagen decorativa')
     p.mb-5(data-aos="fade-down") Es importante señalar que los hallazgos deben redactarse de manera estructurada, incluyendo el requisito incumplido (criterio), la evidencia objetiva y la descripción clara de la situación encontrada. Esta trazabilidad garantiza transparencia y facilita la posterior definición de acciones correctivas.

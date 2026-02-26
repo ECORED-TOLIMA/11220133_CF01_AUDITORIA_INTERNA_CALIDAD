@@ -182,10 +182,10 @@
             h5.t2.mb-2 Basada en evidencia
             p.mb-0 Los hallazgos se sustentan en información comprobable y suficiente.
     .row.justify-content-center.align-items-center.mb-5
-      .col.col-lg-4.col-8.order-lg-2.order-1
+      .col.col-lg-4.col-7.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema1/img21.png', alt='Imagen decorativa')
-      .col.col-lg-8.order-lg-1.order-2
+      .col.col-lg-8.col-12.order-lg-1.order-2
         .row.justify-content-center
           .col
             .tarjeta.tarjeta--C01.p-4

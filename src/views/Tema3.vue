@@ -111,7 +111,7 @@
               .lista-ol--cuadro__vineta
                 span.text-bold 5
               | La gestión de riesgos y oportunidades.
-      .col-lg-5.col-8.col-md-7.order-lg-1.order-1
+      .col-lg-5.col-8.col-md-7.order-lg-1.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema3/img11.svg', alt='Imagen decorativa')
     p.mb-0(data-aos="fade-down") Este modelo no solo define requisitos, como lo hace la ISO 9001, sino que proporciona un marco conceptual que orienta la planificación, implementación, evaluación y mejora del Sistema de Gestión de la Calidad, constituyéndose en referente internacional para la auditoría interna y externa.
