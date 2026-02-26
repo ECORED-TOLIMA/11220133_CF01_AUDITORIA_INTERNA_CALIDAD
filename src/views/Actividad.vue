@@ -20,7 +20,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos, fases, tipos de auditoría, competencias del auditor y herramientas de planificación, asegurando que los aprendices puedan identificar y aplicar de manera correcta los elementos clave de la auditoría interna de calidad.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,395 +28,495 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el objetivo principal de una auditoría interna de calidad?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Mejorar la decoración de la oficina.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Verificar el cumplimiento del Sistema de Gestión de la Calidad.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Controlar el horario de los empleados dentro de la organización.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Auditar únicamente al departamento de compras.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Cuál norma establece los requisitos del Sistema de Gestión de la Calidad, sobre los cuales se basan las auditorías internas?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'ISO 14001.', esCorrecta: false },
+            { id: 'b', texto: 'ISO 45001.', esCorrecta: false },
+            { id: 'c', texto: 'ISO 9001.', esCorrecta: true },
+            { id: 'd', texto: 'ISO 31000.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: '¿Cuál de las siguientes es una fase de la auditoría interna?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Planeación de vacaciones.', esCorrecta: false },
+            { id: 'b', texto: 'Ejecución de la auditoría.', esCorrecta: true },
+            { id: 'c', texto: 'Inventario de oficinas.', esCorrecta: false },
+            { id: 'd', texto: 'Contratación de personal.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'El ciclo PHVA significa:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Planear, Hacer, Verificar, Actuar.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Programar, Homologar, Validar, Ajustar.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Probar, Hacer, Validar, Actuar.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Planificar, Hablar, Verificar, Alinear.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Quién lidera un equipo auditor?',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'El gerente de compras.', esCorrecta: false },
+            { id: 'b', texto: 'El recepcionista.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Un auditor externo sin experiencia.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'El líder del equipo auditor.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Cuál es un criterio de auditoría?',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Preferencia personal del auditor.',
               esCorrecta: false,
             },
+            { id: 'b', texto: 'Opinión de un compañero.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Requisitos de normas y procedimientos.',
+              esCorrecta: true,
             },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'd', texto: 'Inventario de materiales.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Cuál de estos no es un tipo de auditoría según su propósito?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'De entretenimiento.', esCorrecta: true },
+            { id: 'b', texto: 'De conformidad.', esCorrecta: false },
+            { id: 'c', texto: 'De mejora.', esCorrecta: false },
+            { id: 'd', texto: 'De seguimiento.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
+
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'La recolección de evidencias se realiza mediante:',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Redes sociales y rumores.', esCorrecta: false },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Encuestas de satisfacción no oficiales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Solo fotos del lugar de trabajo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Observación, entrevistas y revisión documental.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+
+        {
+          id: 9,
+          texto: '¿Qué documento resume los hallazgos de la auditoría?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Informe de auditoría.', esCorrecta: true },
+            { id: 'b', texto: 'Agenda de reuniones.', esCorrecta: false },
+            { id: 'c', texto: 'Hoja de asistencia.', esCorrecta: false },
+            { id: 'd', texto: 'Manual de bienvenida.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+
+        {
+          id: 10,
+          texto: 'Una función del auditor interno es:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Dar instrucciones de diseño gráfico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Planificar y ejecutar la auditoría.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Controlar la cafetería.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Seleccionar proveedores personales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
+
         {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          id: 11,
+          texto: '¿Qué se evalúa en la selección de auditores internos?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
+              texto: 'Conocimientos, habilidades, ética y experiencia.',
               esCorrecta: true,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
+            { id: 'b', texto: 'Color de la camisa.', esCorrecta: false },
             {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
+              id: 'c',
+              texto: 'Cantidad de café consumido.',
               esCorrecta: false,
             },
+            { id: 'd', texto: 'Preferencias musicales.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
+
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué herramienta se utiliza para guiar la revisión de procesos?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Agenda de cumpleaños.', esCorrecta: false },
+            { id: 'b', texto: 'Manual de cocina.', esCorrecta: false },
+            { id: 'c', texto: 'Lista de verificación.', esCorrecta: true },
+            { id: 'd', texto: 'Calendario de vacaciones.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          id: 13,
+          texto: 'La planificación de la auditoría incluye:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Programa de auditoría y plan de auditoría.',
+              esCorrecta: true,
+            },
+            { id: 'b', texto: 'Compra de suministros.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Revisión de notas de reuniones sociales.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Decoración de la sala.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+
+        {
+          id: 14,
+          texto: 'La modalidad de auditoría puede ser:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Solo presencial.', esCorrecta: false },
+            { id: 'b', texto: 'Solo virtual.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Presencial, virtual o híbrida.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Solo en videojuegos.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+
+        {
+          id: 15,
+          texto: 'El protocolo de auditoría establece:',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Pautas, cronograma y normas de conducta.',
+              esCorrecta: true,
+            },
+            { id: 'b', texto: 'Cantidad de café diario.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Horario de descanso del personal.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Manual de decoración.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+
+        {
+          id: 16,
+          texto: 'Una responsabilidad ética del auditor es:',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Contar historias personales durante la auditoría.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Interrumpir a los auditados.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Ignorar hallazgos menores.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Mantener confidencialidad y objetividad.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+
+        {
+          id: 17,
+          texto: 'El informe de auditoría se utiliza para:',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La revisión por la dirección y seguimiento de acciones.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Publicar en redes sociales los resultados.',
               esCorrecta: false,
             },
+            { id: 'c', texto: 'Comparar a los empleados.', esCorrecta: false },
+            { id: 'd', texto: 'Decorar la oficina.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+
+        {
+          id: 18,
+          texto:
+            '¿Qué norma complementa la ISO 9001 en directrices de auditoría?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'ISO 45001.', esCorrecta: false },
+            { id: 'b', texto: 'ISO 19011.', esCorrecta: true },
+            { id: 'c', texto: 'ISO 14001.', esCorrecta: false },
+            { id: 'd', texto: 'ISO 50001.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+
+        {
+          id: 19,
+          texto: 'Entre las funciones del líder del equipo auditor está:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Coordinar y supervisar al equipo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Planificar vacaciones del personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Controlar el clima de la oficina.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Decorar salas de reunión.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos de auditoría interna y de los procesos, fases y competencias relacionadas con el Sistema de Gestión de la Calidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+
+        {
+          id: 20,
+          texto: 'Una fase de seguimiento de la auditoría incluye:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tomar fotografías de la oficina.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reuniones sociales con el personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Organizar almuerzos de trabajo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Verificar efectividad de acciones correctivas.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+          mensaje_incorrecto:
+            'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',

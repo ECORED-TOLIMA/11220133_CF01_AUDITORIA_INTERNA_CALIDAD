@@ -3,12 +3,7 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    right: 67%
 
 @keyframes float1
   0%
@@ -18,15 +13,234 @@
   
 .banner-principal .tarjeta
   background-position: left 50% !important
-
 .banner-principal__row .banner-principal__img
   width: 400px !important  
-
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
-
+// .titulo-principal.color-acento-contenido .titulo-principal__numero span
+//   color: black !important
 .banner-interno__titulo__icono i
   color: $color-primario
-
+.barra-avance__boton--regresar span
+  color: $white !important
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: cover
+    background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png")
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 figcaption
   font-weight: normal
+//- Modulo cajones
+.cajon.C01
+  background-color: #E6FFFA 
+.cajon.C02
+  background-color: #FBF1FF
+//- modulo tarjetas 
+.tarjeta--tabla
+  background-color: #FFF7D9
+  &:nth-child(even)
+    background-color: #C1FBFF
+.tarjeta--C01
+  background-color: #FBF1FF
+.tarjeta--C02
+  background-color: #E6FFFA 
+.tarjeta--C03
+  background-color: #FFF9E9
+.tarjeta--C04
+  background-color: #E8D5CE
+.tarjeta--C05
+  background-color: #96FEF0
+.tarjeta--C06
+  background-color: #F0D5FE
+.tarjeta--BG01
+  background-image: url("../assets/curso/BG01.png")
+  background-size: cover
+  background-repeat: no-repeat
+.BG02
+  background-image: url("../assets/curso/BG02.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -0.5rem !important
+//- Modulo slyders
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  text-align: center
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+.slyder-f__btn i
+  color: #803C1E
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+.slyder__btn
+  background-color: #803C1E
+  color: #fff
+.slyder-b__btn--sigt, .slyder-a__btn--atrs
+  background-color: #803C1E
+  color: #FFFF
+  border: none
+  opacity: 100
+  //-background-image: url(../assets/curso/chevron-right2.png)
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #803C1E
+  color: #FFFF
+  border: none
+  opacity: 100
+  //-background-image: url(../assets/curso/chevron-right2.png)
+@media (max-width: 576px)
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt 
+    width: 25px
+    height: 25px
+.slyder-a__bullets__item
+  background-color: #302C9E
+  border: none
+.slyder-a__bullets__item--active
+  background-color: #803C1E
+  border: none
+///////// Card hover x 3 tarjetas--------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      background-color: #E8D5CE
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      h5.t2
+        color: $black
+        display: block
+        background-image: url('../assets/curso/ico-down.svg')
+        background-size: 7% 100%
+        background-repeat: no-repeat
+        padding-left: 2.0rem
+      h5.t1
+        display: none
+        
+      @media (max-width:767px)  
+        p
+          font-size: 0.85em
+        h5.t2
+          background-size: 5.5% 100%
+.crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: #E8D5CE
+  h5.t2
+      display: none
+  h5.t1
+    display: block
+    color: $black
+    cursor: pointer
+    background-image: url('../assets/curso/ico-up.svg')
+    background-size: 7% 100%
+    background-repeat: no-repeat
+    padding-left: 2.0rem
+@media (min-width:1200px) and (max-width:1400px)  
+  .crd_hover_txt--body
+    p
+      font-size: 0.85em
+.crd_hover_txt .crd_hover_txt--body
+  padding: 1.5rem 0.8rem !important
+  width: 100%
+//- Listas
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
+  li
+    .lista-ol--cuadro__vineta
+      span.text-bold
+        color: $black
+// modulo tabs
+.tabs-a__tab
+  background-color: #F5E2F0
+.tabs-c__content-item
+  background-color: #FBF1FF  
+.tabs-c__tab
+  background-color: #E8D5CE
+.tabs-c__tab--active
+  background-color: #fff
+.tabs-b__tab--active:hover
+  background-color: #FFE4E4
+.tabs-b__content-item
+  background-color: #DEFFF4
+.tabs-b__tab
+  background-color: #FFE4E4
+.tabs-b__tab--active
+  background-color: #DEFFF4
+.tabs-c__header
+  margin-bottom: 0 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
+//- Modulo acordions
+.acordion
+  .acordion__activo
+    background-color: #E6FFFA
+  .acordion__accion__btn--b
+    background-color: #803C1E  
+    border: none
+    color: #ffffff
+  .acordion__accion__btn--a
+    background-color: #803C1E
+    border: none
+    color: #ffffff
+//- Modulo tablas
+.table
+  width: 100%
+  table-layout: fixed
+  border-collapse: collapse
+thead
+  tr
+    th
+      background-color: #FFF9E9
+.tabla-a.color-acento-contenido
+  td
+    text-align: left
+.tabla-a.responsive
+  width: 100%
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  border-radius: 8px
+  th, td
+  padding: 0.75rem
+  text-align: left
+  vertical-align: top
+  word-break: break-word
+  hyphens: auto
+@media (max-width: 768px)
+  th, td
+    font-size: 0.85rem
+    padding: 0.5rem
+.indicador-color 
+  display: inline-block
+  width: 20px
+  height: 20px
+  border-radius: 4px
+  margin-left: 8px
+  vertical-align: middle
+// Modulo versión escritorio/movil para figuras
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
