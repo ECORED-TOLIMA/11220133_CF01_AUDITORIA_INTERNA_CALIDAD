@@ -196,7 +196,8 @@
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.2 Recolección de evidencias
-    p.mb-5(data-aos="fade-down") La recolección de evidencias constituye una etapa crítica en el proceso de auditoría interna, ya que de ella depende la solidez técnica de los hallazgos y la credibilidad de las conclusiones. La evidencia de auditoría es información verificable que demuestra el grado de cumplimiento frente a los criterios establecidos.
+    p(data-aos="fade-down") La recolección de evidencias constituye una etapa crítica en el proceso de auditoría interna, ya que de ella depende la solidez técnica de los hallazgos y la credibilidad de las conclusiones. La evidencia de auditoría es información verificable que demuestra el grado de cumplimiento frente a los criterios establecidos.
+    p.mb-5(data-aos="fade-down") De acuerdo con las directrices de la ISO 19011, la evidencia debe cumplir tres condiciones fundamentales:
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col.col-12
         .tarjeta--container.row
@@ -281,7 +282,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col.col-lg-3.col-6.order-lg-1.order-1.g-0.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/tema4/img22.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema4/img31.png', alt='Imagen decorativa')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .row.justify-content-center
           .col

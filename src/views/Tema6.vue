@@ -186,9 +186,6 @@
                   p.mb-0 Archivo de la documentación de la auditoría según los procedimientos de gestión documental de la organización.
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 
-                li.mb-0
-                  i.lista-ul__vineta
                   p.mb-0 Garantía de trazabilidad y disponibilidad de información para auditorías futuras o revisiones externas.
           .row(titulo="Determinación y seguimiento de acciones correctivas")
             .col-12.mb-0.mb-md-0
