@@ -142,7 +142,7 @@
                 td(data-aos="fade-down") 10
                 td(data-aos="fade-down") 11
                 td(data-aos="fade-down") 12
-                td(data-aos="fade-down") Julio 2031 - Diciembre 203
+                td(data-aos="fade-down") Julio 2031 - Diciembre 2031
     .tarjeta.tarjeta--C04.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-5.col-md-4.mb-4.mb-md-0
