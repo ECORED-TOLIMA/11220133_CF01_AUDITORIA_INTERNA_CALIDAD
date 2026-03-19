@@ -192,7 +192,7 @@
               ul.lista-ul.mb-0
                 li.mb-0
                   i.lista-ul__vineta
-                  p.mb-0 Planifica Planificación de acciones correctivas y preventivas frente a los hallazgos identificados.
+                  p.mb-0 Planificación de acciones correctivas y preventivas frente a los hallazgos identificados.
                 li.mb-0
                   i.lista-ul__vineta
                   p.mb-0 Establecimiento de plazos de seguimiento, normalmente cada 30, 60 o 90 días según la criticidad de la no conformidad.
