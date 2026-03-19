@@ -11,7 +11,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0(data-aos="fade-down") Las normas ISO 9000, ISO 9001 y ISO 19011 constituyen el marco de referencia para la implementación y evaluación de los sistemas de gestión de la calidad. Estas normas establecen los fundamentos conceptuales, los requisitos y las directrices necesarias para garantizar que las organizaciones gestionen sus procesos de manera eficaz, coherente y orientada a la mejora continua.
+        p.mb-0(data-aos="fade-down") Las normas ISO 9000, ISO 9001 e ISO 19011 constituyen el marco de referencia para la implementación y evaluación de los sistemas de gestión de la calidad. Estas normas establecen los fundamentos conceptuales, los requisitos y las directrices necesarias para garantizar que las organizaciones gestionen sus procesos de manera eficaz, coherente y orientada a la mejora continua.
     .row.justify-content-center.align-items-center.mb-0
       .col.col-lg-4.col-md-7.col-8.order-lg-1.order-1.mb-4.mb-lg-0
         figure
